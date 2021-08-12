@@ -1,14 +1,35 @@
 h1{
+<<<<<<< HEAD
     font-family: Courier;
+=======
+    font-family: Arial;
+>>>>>>> cabecera
     color: #333;
     text-align: center;
     font-size: 18px;
     margin: 0;
     padding: 0;
 }
+#cabecera{
+    background-color: darkcyan;
+    color: azure;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 5px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 29px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 29px 0px rgba(0,0,0,0.75);
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tabNav{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+
+}
 #container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 2px solid seagreen;
     margin: 0 auto;
